@@ -1,0 +1,36 @@
+.signUpFormHeading{
+    /* .sour-gummy-<uniquifier> { */
+        font-family: "Sour Gummy", serif;
+        font-optical-sizing: auto;
+        font-weight:700;
+        font-style: normal;
+        font-size:8vh;
+        font-variation-settings:"wdth" 100;
+      /* }/ */
+}
+.signUpFormOuterContainer{
+    height: 70vh;
+}
+.signUpFormContainerCss{
+    display: flex;
+    justify-content: center;
+}
+.signUpFormFieldContainer{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+.signUpFormlabel{
+    display: inline-flex;
+    color: blue;
+    font-size: 2vh;
+    font-weight: 500;
+    width: 10vw;
+    align-items: center;
+    justify-content: left;
+    /* text-align: left; */
+}
+.loginFormfieldData{
+    display: inline;
+    color: blue;
+}

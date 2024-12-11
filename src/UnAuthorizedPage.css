@@ -1,0 +1,24 @@
+.container{
+    background:url('/Users/niteshagarwal/projects/reacts_Projects/my-app/src/projectPhotos/website-error-401-authorization-required-260nw-571762609.webp' ) no-repeat center ;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: ; */
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.btn{
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+    border: 1px solid #3498db;
+    font-weight:500;
+    text: shadow 2px;
+    color:white
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}

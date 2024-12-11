@@ -1,0 +1,40 @@
+/* .eventTypeContainer{
+    height: auto;
+    width: 100vw;
+    display:grid
+    align-items: flex-start;
+}
+.eventsCardsContainer{
+    display: -ms-inline-grid;
+    align-items: flex-start;
+    justify-items: auto;
+}*/
+
+.eventTypeContainer {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    /* align-items: flex-start; Uncomment if needed */
+}
+
+.eventTypeHeading{
+    font-size: 5vw;
+    font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  color: white;
+  font-variation-settings:
+    "wdth" 100;
+    background-color: rgb(64, 52, 193);
+}
+
+.eventsCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 16px; /* Space between cards */
+    align-items: flex-start;
+    justify-items: center;
+    padding: 16px;
+}
+

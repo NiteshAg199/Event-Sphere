@@ -1,0 +1,40 @@
+/* .eventOrganizerCardOuterCss{
+    background-color: rgb(186, 186, 2);
+} */
+
+.eventOrganizerCardOuterCss{
+    /* height:auto;
+    display: inline-block; */
+    margin:1vw;
+    height: 33vh;
+    width: 90%; /* Fit within the grid column */
+    display: flex;
+    flex-direction: column;
+    align-items:flex-center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 4px;
+    cursor: pointer;
+    /* border-radius: 200px; */
+    --shadow-color: hsl(0deg 0% 0% / 0.25);
+}
+.eventOrganizerNameCardCss{
+    display:inline;
+    margin: -2vw;
+}
+.eventOrganizerEventType,.starRatings{
+    margin-left: 1vw;
+}
+.eventOrganizerEventTypePrice,.eventOrganizerStarsRatingValue{
+    margin-right: 1vw;
+}
+.eventOrganizerEventTypeOuterCss{
+    display: flex;
+    justify-content: space-between;
+}
+.eventOrganizerStarsRating{
+    display: flex;
+    justify-content: space-between;
+}

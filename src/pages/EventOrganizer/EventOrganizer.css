@@ -1,0 +1,40 @@
+.eventOrganizerHeading {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight:700;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.eventOrgannizerCardsContainer{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(3,1fr);
+    align-items: flex-start;
+    justify-content: center;
+    /* width: 100vw; */
+    /* height:70vh */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border for visibility */
+    height: 70vh;
+    /* padding: 10px; */
+}
+
+/* .eventOrgannizerCardsContainer {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  } */
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+.evtfilterAndCards{
+    display: flex;
+}  

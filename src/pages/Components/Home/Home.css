@@ -1,0 +1,78 @@
+
+.mainHomePageCoverImage{
+    height:70vh;
+    width:100vw 
+}
+
+/* .mainHomePageLogoName { 
+	--k: 0;
+	place-self: center;
+	background: 
+		linear-gradient(90deg, 
+				hsl(calc(var(--k)*1turn), 95%, 65%), 
+				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%)) text;
+	color: transparent;
+	font: 900 clamp(.875em, 7.25vw, 5em) sans-serif;
+	filter: url(#f);
+	text-align: center;
+	text-transform: uppercase;
+	animation: k 4s linear infinite;
+    background-color: black;
+    
+} */
+
+.mainHomePage{
+	background-color: black;
+}
+.mainHomePageLogoName {
+		font-family: "Sour Gummy", serif;
+  		font-optical-sizing: auto;
+  		font-weight:500;
+  		font-style: normal;
+  		font-variation-settings:"wdth" 100;
+		font-size: 8vw;
+		font-weight: bold;
+		color: white;
+		animation: glow-animation 1s infinite alternate;
+	}
+	
+	@keyframes glow-animation {
+		0% {
+			text-shadow: 0 0 5px #fffF00, 0 0 5px #ff0000, 0 0 15px #ff6200, 0 0 20px #ff0000;
+		}
+	
+		50% {
+			text-shadow: 0 0 10px #e6ecdb, 0 0 10px #a78e8e, 0 0 30px #d4a385, 0 0 40px #eb9f9f;
+		}
+	
+		100% {
+			text-shadow: 0 0 5px #c0c08e, 0 0 5px #b58c8c, 0 0 15px #e0ab8a, 0 0 20px #bca0a0;
+		}
+	}
+
+	.eventsCardsContainer {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Two columns */
+		gap: 16px; /* Space between cards */
+		align-items: flex-start;
+		justify-items: center;
+		padding: 16px;
+	}
+  
+ .mainHomePageCoverAnimation{
+	position: relative;
+  text-align: center;
+  color: white;
+  font-weight:bold;
+  font-size: x-large;
+ }
+ .bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}

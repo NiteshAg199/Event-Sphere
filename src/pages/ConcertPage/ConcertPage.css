@@ -1,0 +1,14 @@
+.ConcertPosterContainer{
+    height: 60vh;
+    width: 80vw;
+}
+.ConcertDetails{
+    display: flexbox;
+    justify-content: center;   
+    align-items: center;
+}
+.ConcertDesc{
+    border: 1px solid black;
+    text-align: left;
+    padding: 1vw;
+}

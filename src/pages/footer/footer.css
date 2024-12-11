@@ -1,0 +1,15 @@
+.logo-footer-name{
+    font-weight: 700;
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    background-color:rgb(64, 52, 193);
+    height:20vh
+}
+.footer-icons{
+    height: 12px;
+}
+span{
+    margin-right: 1vw;
+}

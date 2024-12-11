@@ -1,0 +1,53 @@
+.outerContainer{
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.leftBox{
+    /* float: 5; */
+    flex:6;
+    align-items: start;
+    justify-content: start;
+    /* flex-grow: 20; */
+}
+nav{
+    float: left;
+    margin-left: 2vw;
+}
+.rightBox{
+    flex:1;
+    /* flex-grow: 20; */
+}
+
+
+.leftBox nav div{
+    display: inline-block;
+    /* width:20vw; */
+    /* height: 6vh; */
+    margin-left:1vw;
+    cursor: pointer;
+    font-weight:bold;
+    font-size:x-large;
+    text-align: center;
+    padding: 1vw;
+    vertical-align: middle;
+    /* border: 1px solid black; */
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+.leftBox nav div:hover{
+    
+    background-color: rgb(56, 56, 121);
+    transform: scale(1.01);
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+
+    /* border: 1px solid black; */
+}
